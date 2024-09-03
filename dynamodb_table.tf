@@ -1,7 +1,7 @@
 module "dynamodb_table" {
   source   = "terraform-aws-modules/dynamodb-table/aws"
 
-  name     = "my-table"
+  name     = "AZ-table"
   hash_key = "id"
 
   attributes = [
